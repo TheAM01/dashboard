@@ -89,7 +89,7 @@ export default function SideBar() {
 
                 <div className={`font-logo  text-gray-medium font-light text-2xl lg:text-4xl p-2 ${isOpen ? "border-b" : ""}  justify-between items-center`}>
 
-                    <span className={isOpen ? "flex!" : "hidden!"}>Nigga</span>
+                    <span className={isOpen ? "flex!" : "hidden!"}>SentiCare</span>
 
                     <button onClick={changeSidebarStatus} className={"flex items-center justify-center"}>
 
