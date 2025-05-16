@@ -4,11 +4,10 @@ import Link from "next/link"
 import { File, FilePlus, TableOfContents, Megaphone, UserSearch, CircleUser, ChevronLeft, ChevronRight, LogOut, ListVideo, LibraryBig, Layers, Home, ListTodo, GitPullRequestArrow, MonitorPlay, CirclePlus, icons } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { getCookie, setCookie } from "@/components/utility";
 
 export default function SideBar() {
     const pathname = usePathname();
-    const sidebarStatus = !!getCookie(document, "sidebar-status");
+    const sidebarStatus = true;
     const pages = [
         {
             title: "Dashboard",
@@ -71,7 +70,7 @@ export default function SideBar() {
 
     const changeSidebarStatus = () => {
         setIsOpen(!isOpen);
-        setCookie(document, "sidebar-status", Number(!isOpen), 7);
+
     }
 
 
