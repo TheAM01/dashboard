@@ -49,16 +49,16 @@ export default function SideBar() {
                 },
             ]
         },
-        {
-            title: "Feedback",
-            items: [
-                {
-                    title: "All Feedbacks",
-                    href: "/feedback/all",
-                    icon: Megaphone
-                }
-            ]
-        }
+        // {
+        //     title: "Feedback",
+        //     items: [
+        //         {
+        //             title: "All Feedbacks",
+        //             href: "/feedback/all",
+        //             icon: Megaphone
+        //         }
+        //     ]
+        // }
     ]
 
     const [isOpen, setIsOpen] = useState(sidebarStatus);

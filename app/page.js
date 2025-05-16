@@ -25,13 +25,7 @@ export default function Home() {
 
                 <div className="flex-col bg-zinc-900 border border-zinc-800 p-5 w-full">
 
-                    I hate:
-
-                    <ul className={"list-disc"}>
-                        <li>The government</li>
-                        <li>Myself</li>
-                        <li>Python</li>
-                    </ul>
+                    Start by navigating to appropriate pages
 
                 </div>
             </div>
